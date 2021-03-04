@@ -1,6 +1,7 @@
 ## express-template
 ほぼ最小構成のnode.js+expressアプリケーション
+おまけ程度にviewEngineとstaticの設定付き
 
-## Package
-express
-ejs
+## npm install
+- express
+- ejs
