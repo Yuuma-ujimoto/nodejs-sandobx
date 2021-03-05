@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="" />
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/nodejs-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nodejs-sandbox.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +40,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="EJS File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pCnkJVp6ljKq9vQWZxUyX9Zuxj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,6 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../todo-test" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -35,11 +72,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614696081414</updated>
-      <workItem from="1614696082499" duration="801000" />
+      <workItem from="1614696082499" duration="1493000" />
+      <workItem from="1614773392852" duration="1262000" />
+      <workItem from="1614800789007" duration="17000" />
+      <workItem from="1614824125942" duration="4000" />
+      <workItem from="1614872912035" duration="625000" />
+      <workItem from="1614957969366" duration="1258000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="97" key="CommitChangelistDialog2" timestamp="1614800801233">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="97" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614800801233" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1614961995832">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/-3840.-1.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614961995832" />
+    <state x="424" y="270" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1614701374943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="424" y="270" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614701374943" />
   </component>
 </project>
