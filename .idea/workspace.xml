@@ -27,9 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sandbox5/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox5/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox5/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox5/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,8 @@
       <workItem from="1614957969366" duration="1258000" />
       <workItem from="1615541097121" duration="342000" />
       <workItem from="1615541474971" duration="68000" />
-      <workItem from="1615640942778" duration="92000" />
+      <workItem from="1615640942778" duration="147000" />
+      <workItem from="1615645779471" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -106,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615541527024</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update&#10;sandbox5を追加(router雛形)">
+      <created>1615641079266</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615641079266</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,13 +151,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="update&#10;sandbox4を追加(Hash化のテスト)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update&#10;sandbox4を追加(Hash化のテスト)" />
+    <MESSAGE value="update&#10;sandbox5を追加(router雛形)" />
+    <option name="LAST_COMMIT_MESSAGE" value="update&#10;sandbox5を追加(router雛形)" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="588" y="97" key="CommitChangelistDialog2" timestamp="1615541525964">
+    <state x="588" y="97" key="CommitChangelistDialog2" timestamp="1615641078250">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="588" y="97" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615541525964" />
+    <state x="588" y="97" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615641078250" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1615541320870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -179,10 +187,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="704" y="222" key="RollbackChangesDialog/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615541225135" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1615541529561">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1615641081096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615541529561" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615641081096" />
     <state x="424" y="270" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1614701374943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
