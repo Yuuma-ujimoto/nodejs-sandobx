@@ -27,9 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sandbox7/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox7/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox6/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox6/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +98,8 @@
       <workItem from="1615709371190" duration="598000" />
       <workItem from="1615728342124" duration="599000" />
       <workItem from="1616168376539" duration="855000" />
+      <workItem from="1616226774918" duration="1187000" />
+      <workItem from="1616317340432" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
