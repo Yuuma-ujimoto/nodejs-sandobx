@@ -26,12 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sandbox8/mysql.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nodejs-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nodejs-sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="sandbox8作成&#10;mysqlのテスト" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -108,7 +103,7 @@
       <workItem from="1616168376539" duration="855000" />
       <workItem from="1616226774918" duration="1187000" />
       <workItem from="1616317340432" duration="1554000" />
-      <workItem from="1616809262888" duration="3157000" />
+      <workItem from="1616809262888" duration="3531000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -145,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616168510203</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="sandbox8作成&#10;mysqlのテスト">
+      <created>1616823560712</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616823560712</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +188,7 @@
     <MESSAGE value="update&#10;sandbox5を追加(router雛形)" />
     <MESSAGE value="update&#10;sandbox5のソース修正" />
     <MESSAGE value="update&#10;sandbox6追加(仮段階)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update&#10;sandbox6追加(仮段階)" />
+    <MESSAGE value="sandbox8作成&#10;mysqlのテスト" />
+    <option name="LAST_COMMIT_MESSAGE" value="sandbox8作成&#10;mysqlのテスト" />
   </component>
 </project>
