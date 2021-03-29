@@ -26,8 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="sandbox9作成&#10;mongoDBのテスト">
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="sandbox10作成&#10;mongoDBの応用">
       <change afterPath="$PROJECT_DIR$/sandbox10/find_count.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox10/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +41,7 @@
       <list>
         <option value="EJS File" />
         <option value="JavaScript File" />
+        <option value="markdown" />
       </list>
     </option>
   </component>
@@ -130,7 +132,7 @@
       <workItem from="1616921669192" duration="1238000" />
       <workItem from="1616939317263" duration="1091000" />
       <workItem from="1616948307801" duration="67000" />
-      <workItem from="1616949139897" duration="1452000" />
+      <workItem from="1616949139897" duration="1752000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -188,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616896345105</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="sandbox10作成&#10;mongoDBの応用">
+      <created>1617034948292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617034948292</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +240,7 @@
     <MESSAGE value="update&#10;sandbox6追加(仮段階)" />
     <MESSAGE value="sandbox8作成&#10;mysqlのテスト" />
     <MESSAGE value="sandbox9作成&#10;mongoDBのテスト" />
-    <option name="LAST_COMMIT_MESSAGE" value="sandbox9作成&#10;mongoDBのテスト" />
+    <MESSAGE value="sandbox10作成&#10;mongoDBの応用" />
+    <option name="LAST_COMMIT_MESSAGE" value="sandbox10作成&#10;mongoDBの応用" />
   </component>
 </project>
