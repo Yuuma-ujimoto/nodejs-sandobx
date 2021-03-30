@@ -14,7 +14,6 @@ MongoClient.connect("mongodb://localhost:27017/mydb",
         }
         check_mail_address(client,"test@example.com",(result)=>{
             console.log(result)
-            client.close()
         })
     })
 

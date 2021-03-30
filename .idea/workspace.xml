@@ -27,9 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="sandbox10作成&#10;mongoDBの応用">
-      <change afterPath="$PROJECT_DIR$/sandbox10/find_count.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox10/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox10/find_count.js" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox10/find_count.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +131,7 @@
       <workItem from="1616921669192" duration="1238000" />
       <workItem from="1616939317263" duration="1091000" />
       <workItem from="1616948307801" duration="67000" />
-      <workItem from="1616949139897" duration="1752000" />
+      <workItem from="1616949139897" duration="5389000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617034948292</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="sandbox10作成&#10;mongoDBの応用">
+      <created>1617034966736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617034966736</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
