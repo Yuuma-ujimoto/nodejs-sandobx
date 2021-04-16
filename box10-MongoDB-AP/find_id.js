@@ -5,9 +5,9 @@ const option = {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }
-test()
+find_id()
 // async await使うとちょっと楽？
-async function test(){
+async function find_id(){
     let client
     try {
         client = await MongoClient.connect("mongodb://localhost:27017/mydb", option)
