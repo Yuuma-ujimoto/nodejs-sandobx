@@ -26,19 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="box11作成&#10;box10アップデート">
-      <change afterPath="$PROJECT_DIR$/box10-MongoDB-AP/find_by_RegExp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box11-Readline/script2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box12-Sign-In-And-Sign-Up-MongoDB-template/mongodb-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box12-Sign-In-And-Sign-Up-MongoDB-template/sign-in.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box12-Sign-In-And-Sign-Up-MongoDB-template/sign-up.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box7-Date-Object-Sandbox/script2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nodejs-sandbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nodejs-sandbox.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/box10-MongoDB-AP/find_id.js" beforeDir="false" afterPath="$PROJECT_DIR$/box10-MongoDB-AP/find_id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/box7-Date-Object-Sandbox/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/box7-Date-Object-Sandbox/script.js" afterDir="false" />
-    </list>
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="box12作成&#10;mongodbでのサインイン・サインアップ処理のテンプレート" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,6 +139,7 @@
       <workItem from="1617595710630" duration="3937000" />
       <workItem from="1617619483292" duration="2443000" />
       <workItem from="1617702184794" duration="16267000" />
+      <workItem from="1618577539927" duration="1381000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -243,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617414948456</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="box12作成&#10;mongodbでのサインイン・サインアップ処理のテンプレート">
+      <created>1618577654530</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618577654530</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +286,8 @@
     <MESSAGE value="update sandbox10" />
     <MESSAGE value="見たいコードがどのディレクトリにあったか分からなくなったことが多々あっ為各ディレクトリ名を変更しわかりやすくした。&#10;ついでに一部ディレクトリのreadmeも変更" />
     <MESSAGE value="box11作成&#10;box10アップデート" />
-    <option name="LAST_COMMIT_MESSAGE" value="box11作成&#10;box10アップデート" />
+    <MESSAGE value="box12作成&#10;mongodbでのサインイン・サインアップ処理のテンプレート" />
+    <option name="LAST_COMMIT_MESSAGE" value="box12作成&#10;mongodbでのサインイン・サインアップ処理のテンプレート" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
