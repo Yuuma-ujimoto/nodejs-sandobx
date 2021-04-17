@@ -33,7 +33,7 @@ router.post("/",async (req, res, next) => {
         const user_collection = db.collection("user")
         const check_mail_address = await user_collection.countDocuments({mail_address:mail_address})
         if(check_mail_address){
-            res.render("sign-in",{error:true})
+            res.render("sign-up",{error:true})
             return
         }
         await user_collection.insertOne({user_name:user_name,mail_address:mail_address,password:password})
@@ -44,7 +44,7 @@ router.post("/",async (req, res, next) => {
 
     catch (e) {
         console.log(e)
-        res.render("sign-in",{error:true})
+        res.render("sign-up",{error:true})
     }
     finally {
        await client.close()

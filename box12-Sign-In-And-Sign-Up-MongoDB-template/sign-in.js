@@ -6,7 +6,7 @@ const config = require("./mongodb-config")
 
 
 router.get("/",(req, res) => {
-    res.render("sign-up",{error:false})
+    res.render("sign-in",{error:false})
 })
 
 router.post("/",async (req, res, next) => {
