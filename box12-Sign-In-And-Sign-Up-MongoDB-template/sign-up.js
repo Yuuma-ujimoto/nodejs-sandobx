@@ -12,7 +12,7 @@ router.get("/",(req, res) => {
 router.post("/",async (req, res, next) => {
     const mail_address = req.body.mail_address
     const user_name = req.body.user_name
-    const password = res.body.password
+    const password = req.body.password
 
     // メールアドレス正規表現チェック
     const mail_pattern = "/^[\w\-._]+@[\w\-._]+\.[A-Za-z]+$/"

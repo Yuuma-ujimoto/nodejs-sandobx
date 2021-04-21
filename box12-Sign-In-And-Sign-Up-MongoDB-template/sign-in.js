@@ -11,7 +11,7 @@ router.get("/",(req, res) => {
 
 router.post("/",async (req, res, next) => {
     const mail_address = req.body.mail_address
-    const password = res.body.password
+    const password = req.body.password
     const post_data_check =  !mail_address||!password
     if(post_data_check){
         res.render("sign-in",{error:true})
