@@ -26,7 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="update box12&#10;一部修正しきれてなかったので追加で修正">
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正">
+      <change afterPath="$PROJECT_DIR$/box13-foreach/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチファイル" value="Markdown" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.37" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.43" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -82,11 +83,8 @@
       <recent name="$PROJECT_DIR$/box10-MongoDB-AP" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.find_by_RegExp.js">
+  <component name="RunManager" selected="Node.js.script.js (2)">
     <configuration name="find_by_RegExp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_by_RegExp.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
-      <method v="2" />
-    </configuration>
-    <configuration name="find_count.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_count.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
       <method v="2" />
     </configuration>
     <configuration name="find_id.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_id.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
@@ -95,16 +93,19 @@
     <configuration name="script.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box7-Date-Object-Sandbox/script.js" working-dir="$PROJECT_DIR$/box7-Date-Object-Sandbox">
       <method v="2" />
     </configuration>
+    <configuration name="script.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box13-foreach/script.js" working-dir="$PROJECT_DIR$/box13-foreach">
+      <method v="2" />
+    </configuration>
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box11-Readline/script.js" working-dir="$PROJECT_DIR$/box11-Readline">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.script.js (2)" />
         <item itemvalue="Node.js.find_by_RegExp.js" />
         <item itemvalue="Node.js.find_id.js" />
         <item itemvalue="Node.js.script.js (1)" />
         <item itemvalue="Node.js.script.js" />
-        <item itemvalue="Node.js.find_count.js" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +145,8 @@
       <workItem from="1618577539927" duration="4269000" />
       <workItem from="1618793929434" duration="1077000" />
       <workItem from="1618811436980" duration="308000" />
+      <workItem from="1618966898020" duration="1538000" />
+      <workItem from="1619622014667" duration="2767000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -264,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618655641984</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正">
+      <created>1618966964956</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618966964956</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +325,8 @@
     <MESSAGE value="update workspace.xml" />
     <MESSAGE value="update box12&#10;sign-upとsign-inのファイル名が逆になっていたのを修正" />
     <MESSAGE value="update box12&#10;一部修正しきれてなかったので追加で修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="update box12&#10;一部修正しきれてなかったので追加で修正" />
+    <MESSAGE value="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
