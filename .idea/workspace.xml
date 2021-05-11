@@ -26,9 +26,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正">
-      <change afterPath="$PROJECT_DIR$/box13-foreach/script.js" afterDir="false" />
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="add box13">
+      <change afterPath="$PROJECT_DIR$/box14-socket/mongodb-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box14-socket/socket.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box14-socket/views/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box14-socket/views/room.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +43,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="EJS File" />
         <option value="markdown" />
         <option value="JavaScript File" />
+        <option value="EJS File" />
       </list>
     </option>
   </component>
@@ -70,7 +75,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチファイル" value="Markdown" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.43" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/box14-socket" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -79,11 +84,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/box14-socket" />
+      <recent name="$PROJECT_DIR$/box14-socket/views" />
       <recent name="$PROJECT_DIR$/box11-Readline" />
       <recent name="$PROJECT_DIR$/box10-MongoDB-AP" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/box14-socket/views" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.script.js (2)">
+  <component name="RunManager" selected="Node.js.socket.js">
     <configuration name="find_by_RegExp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_by_RegExp.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
       <method v="2" />
     </configuration>
@@ -96,16 +106,16 @@
     <configuration name="script.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box13-foreach/script.js" working-dir="$PROJECT_DIR$/box13-foreach">
       <method v="2" />
     </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box11-Readline/script.js" working-dir="$PROJECT_DIR$/box11-Readline">
+    <configuration name="socket.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box14-socket/socket.js" working-dir="$PROJECT_DIR$/box14-socket">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.socket.js" />
         <item itemvalue="Node.js.script.js (2)" />
         <item itemvalue="Node.js.find_by_RegExp.js" />
         <item itemvalue="Node.js.find_id.js" />
         <item itemvalue="Node.js.script.js (1)" />
-        <item itemvalue="Node.js.script.js" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +157,8 @@
       <workItem from="1618811436980" duration="308000" />
       <workItem from="1618966898020" duration="1538000" />
       <workItem from="1619622014667" duration="2767000" />
+      <workItem from="1620354200576" duration="1682000" />
+      <workItem from="1620365667819" duration="12689000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -274,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618966964956</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add box13">
+      <created>1620354232576</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620354232576</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +345,8 @@
     <MESSAGE value="update box12&#10;sign-upとsign-inのファイル名が逆になっていたのを修正" />
     <MESSAGE value="update box12&#10;一部修正しきれてなかったので追加で修正" />
     <MESSAGE value="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正" />
-    <option name="LAST_COMMIT_MESSAGE" value="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正" />
+    <MESSAGE value="add box13" />
+    <option name="LAST_COMMIT_MESSAGE" value="add box13" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
