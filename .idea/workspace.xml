@@ -26,14 +26,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="add box13">
-      <change afterPath="$PROJECT_DIR$/box14-socket/mongodb-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box14-socket/socket.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box14-socket/views/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box14-socket/views/room.ejs" afterDir="false" />
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="add box14">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +153,7 @@
       <workItem from="1619622014667" duration="2767000" />
       <workItem from="1620354200576" duration="1682000" />
       <workItem from="1620365667819" duration="12689000" />
+      <workItem from="1620728200176" duration="1227000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -293,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620354232576</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add box14">
+      <created>1620728230190</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728230190</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +348,8 @@
     <MESSAGE value="update box12&#10;一部修正しきれてなかったので追加で修正" />
     <MESSAGE value="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正" />
     <MESSAGE value="add box13" />
-    <option name="LAST_COMMIT_MESSAGE" value="add box13" />
+    <MESSAGE value="add box14" />
+    <option name="LAST_COMMIT_MESSAGE" value="add box14" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
