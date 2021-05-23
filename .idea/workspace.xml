@@ -26,12 +26,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="commit">
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="add box14">
+      <change afterPath="$PROJECT_DIR$/box15-form-design/form1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box15-form-design/form2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/box14-socket/mongodb-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box14-socket/socket.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box14-socket/views/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/box14-socket/views/room.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/box12-Sign-In-And-Sign-Up-MongoDB-template/sign-in.js" beforeDir="false" afterPath="$PROJECT_DIR$/box12-Sign-In-And-Sign-Up-MongoDB-template/sign-in.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box14-socket/socket.js" beforeDir="false" afterPath="$PROJECT_DIR$/box14-socket/socket.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box14-socket/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/box14-socket/views/index.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,45 +42,81 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="EJS File" />
+        <option value="markdown" />
         <option value="JavaScript File" />
+        <option value="EJS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1pCnkJVp6ljKq9vQWZxUyX9Zuxj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.4" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチファイル" value="Markdown" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.43" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/box14-socket" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yuuma\WebstormProjects\nodejs-sandbox\box14-socket" />
+      <recent name="$PROJECT_DIR$/box14-socket" />
+      <recent name="$PROJECT_DIR$/box14-socket/views" />
+      <recent name="$PROJECT_DIR$/box11-Readline" />
+      <recent name="$PROJECT_DIR$/box10-MongoDB-AP" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/box14-socket/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.script.js">
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sandbox4/main.js" working-dir="$PROJECT_DIR$/sandbox4">
+  <component name="RunManager" selected="Node.js.socket.js">
+    <configuration name="find_by_RegExp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_by_RegExp.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
       <method v="2" />
     </configuration>
-    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/sandbox7/script.js" working-dir="$PROJECT_DIR$/sandbox7">
+    <configuration name="find_id.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_id.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box7-Date-Object-Sandbox/script.js" working-dir="$PROJECT_DIR$/box7-Date-Object-Sandbox">
+      <method v="2" />
+    </configuration>
+    <configuration name="script.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box13-foreach/script.js" working-dir="$PROJECT_DIR$/box13-foreach">
+      <method v="2" />
+    </configuration>
+    <configuration name="socket.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box14-socket/socket.js" working-dir="$PROJECT_DIR$/box14-socket">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.script.js" />
-        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.socket.js" />
+        <item itemvalue="Node.js.script.js (2)" />
+        <item itemvalue="Node.js.find_by_RegExp.js" />
+        <item itemvalue="Node.js.find_id.js" />
+        <item itemvalue="Node.js.script.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -106,14 +143,25 @@
       <workItem from="1616168376539" duration="855000" />
       <workItem from="1616226774918" duration="1187000" />
       <workItem from="1616317340432" duration="1554000" />
-      <workItem from="1617540640818" duration="593000" />
-      <workItem from="1618310718093" duration="594000" />
-      <workItem from="1618640668990" duration="1215000" />
-      <workItem from="1619225188438" duration="47000" />
-      <workItem from="1619231115065" duration="6000" />
-      <workItem from="1619248159006" duration="1046000" />
-      <workItem from="1620728204782" duration="731000" />
-      <workItem from="1621758025998" duration="321000" />
+      <workItem from="1616809262888" duration="7985000" />
+      <workItem from="1616894156090" duration="2596000" />
+      <workItem from="1616921669192" duration="1238000" />
+      <workItem from="1616939317263" duration="1091000" />
+      <workItem from="1616948307801" duration="67000" />
+      <workItem from="1616949139897" duration="13915000" />
+      <workItem from="1617235233310" duration="7901000" />
+      <workItem from="1617595710630" duration="3937000" />
+      <workItem from="1617619483292" duration="2443000" />
+      <workItem from="1617702184794" duration="16267000" />
+      <workItem from="1618577539927" duration="4269000" />
+      <workItem from="1618793929434" duration="1077000" />
+      <workItem from="1618811436980" duration="308000" />
+      <workItem from="1618966898020" duration="1538000" />
+      <workItem from="1619622014667" duration="2767000" />
+      <workItem from="1620354200576" duration="1682000" />
+      <workItem from="1620365667819" duration="12689000" />
+      <workItem from="1620728200176" duration="1892000" />
+      <workItem from="1620779360221" duration="7953000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -150,14 +198,119 @@
       <option name="project" value="LOCAL" />
       <updated>1616168510203</updated>
     </task>
-    <task id="LOCAL-00006" summary="commit">
-      <created>1619248212154</created>
+    <task id="LOCAL-00006" summary="sandbox8作成&#10;mysqlのテスト">
+      <created>1616823560712</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1619248212154</updated>
+      <updated>1616823560712</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="sandbox8作成&#10;mysqlのテスト">
+      <created>1616823982890</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616823982890</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sandbox9作成&#10;mongoDBのテスト">
+      <created>1616896345105</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616896345105</updated>
+    </task>
+    <task id="LOCAL-00009" summary="sandbox10作成&#10;mongoDBの応用">
+      <created>1617034948292</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617034948292</updated>
+    </task>
+    <task id="LOCAL-00010" summary="sandbox10作成&#10;mongoDBの応用">
+      <created>1617034966736</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617034966736</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update sandbox10">
+      <created>1617076214591</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1617076214591</updated>
+    </task>
+    <task id="LOCAL-00012" summary="見たいコードがどのディレクトリにあったか分からなくなったことが多々あっ為各ディレクトリ名を変更しわかりやすくした。&#10;ついでに一部ディレクトリのreadmeも変更">
+      <created>1617093309773</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1617093309773</updated>
+    </task>
+    <task id="LOCAL-00013" summary="box11作成&#10;box10アップデート">
+      <created>1617414948456</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617414948456</updated>
+    </task>
+    <task id="LOCAL-00014" summary="box12作成&#10;mongodbでのサインイン・サインアップ処理のテンプレート">
+      <created>1618577654530</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1618577654530</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update workspace.xml">
+      <created>1618588476563</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1618588476563</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update box12&#10;sign-upとsign-inのファイル名が逆になっていたのを修正">
+      <created>1618655576622</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1618655576622</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update box12&#10;一部修正しきれてなかったので追加で修正">
+      <created>1618655641984</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1618655641984</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正">
+      <created>1618966964956</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1618966964956</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add box13">
+      <created>1620354232576</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1620354232576</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add box14">
+      <created>1620728230190</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1620728230190</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add box14">
+      <created>1620779190013</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1620779190013</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,61 +351,23 @@
     <MESSAGE value="update&#10;sandbox5を追加(router雛形)" />
     <MESSAGE value="update&#10;sandbox5のソース修正" />
     <MESSAGE value="update&#10;sandbox6追加(仮段階)" />
-    <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="sandbox8作成&#10;mysqlのテスト" />
+    <MESSAGE value="sandbox9作成&#10;mongoDBのテスト" />
+    <MESSAGE value="sandbox10作成&#10;mongoDBの応用" />
+    <MESSAGE value="update sandbox10" />
+    <MESSAGE value="見たいコードがどのディレクトリにあったか分からなくなったことが多々あっ為各ディレクトリ名を変更しわかりやすくした。&#10;ついでに一部ディレクトリのreadmeも変更" />
+    <MESSAGE value="box11作成&#10;box10アップデート" />
+    <MESSAGE value="box12作成&#10;mongodbでのサインイン・サインアップ処理のテンプレート" />
+    <MESSAGE value="update workspace.xml" />
+    <MESSAGE value="update box12&#10;sign-upとsign-inのファイル名が逆になっていたのを修正" />
+    <MESSAGE value="update box12&#10;一部修正しきれてなかったので追加で修正" />
+    <MESSAGE value="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正" />
+    <MESSAGE value="add box13" />
+    <MESSAGE value="add box14" />
+    <option name="LAST_COMMIT_MESSAGE" value="add box14" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="588" y="97" key="CommitChangelistDialog2" timestamp="1619248211157">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="588" y="97" key="CommitChangelistDialog2/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616168509098" />
-    <state x="588" y="97" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619248211157" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1621758350378">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615541320870" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621758350378" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1618641772709">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/-3840.-1.1920.1040/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1614961995832" />
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040/1920.4.1920.1040@0.0.1920.1040" timestamp="1618641772709" />
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom" timestamp="1616168952049">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616168952049" />
-    <state width="1899" height="279" key="GridCell.Tab.0.center" timestamp="1616168952049">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616168952049" />
-    <state width="1899" height="279" key="GridCell.Tab.0.left" timestamp="1616168952049">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616168952049" />
-    <state width="1899" height="279" key="GridCell.Tab.0.right" timestamp="1616168952049">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616168952049" />
-    <state x="592" y="281" key="MultipleFileMergeDialog" timestamp="1621758236044">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="592" y="281" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621758236044" />
-    <state x="704" y="222" key="RollbackChangesDialog" timestamp="1615541225135">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="704" y="222" key="RollbackChangesDialog/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1615541225135" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1619248225972">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1616168511723" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1619248225972" />
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621758315115">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621758315115" />
-    <state x="424" y="270" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1614701374943">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="424" y="270" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1920.1040/-3840.-1.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1614701374943" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
