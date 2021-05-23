@@ -28,6 +28,8 @@ router.post("/",async (req, res, next) => {
             res.render("sign-in",{error:true})
             return
         }
+        const user_data = await user_collection.findOne({mail_address:mail_address})
+        req.session.user_id = user_data._id
     }
     catch (e) {
         console.log(e)

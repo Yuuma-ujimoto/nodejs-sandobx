@@ -73,10 +73,10 @@ app.get("/room/:name",(req,res)=>{
     res.render("room.ejs",{id:req.params.name})
 })
 
-let room = {}
+
 
 let client
-let result
+
 const io_func = async ()=> {
     client = await mongodb.connect(config.url,config.option)
     io.sockets.on("connection", (socket) => {
@@ -96,12 +96,9 @@ const io_func = async ()=> {
     })
 }
 
-io_func().then(
-    ()=>{
-        console.log("a")
-    }
-)
 
-http.listen(3000,()=>{
-    console.log("http://localhost:3000")})
+
+http.listen(3000,async ()=>{
+    await io_func()
+})
 
