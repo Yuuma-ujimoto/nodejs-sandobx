@@ -26,8 +26,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="add box14">
-      <change afterPath="$PROJECT_DIR$/box16-async-mysql/mysql.js" afterDir="false" />
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="add box16">
+      <change afterPath="$PROJECT_DIR$/box17-symbol/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box18-object/check_null.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box18-object/script1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +72,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチファイル" value="Markdown" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.16.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.43" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/box14-socket" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -90,29 +92,29 @@
       <recent name="$PROJECT_DIR$/box14-socket/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.mysql.js">
-    <configuration name="find_by_RegExp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_by_RegExp.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
+  <component name="RunManager" selected="Node.js.check_null.js">
+    <configuration name="a.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box17-symbol/a.js" working-dir="$PROJECT_DIR$/box17-symbol">
       <method v="2" />
     </configuration>
-    <configuration name="find_id.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box10-MongoDB-AP/find_id.js" working-dir="$PROJECT_DIR$/box10-MongoDB-AP">
+    <configuration name="check_null.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box18-object/check_null.js" working-dir="$PROJECT_DIR$/box18-object">
       <method v="2" />
     </configuration>
     <configuration name="mysql.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box16-async-mysql/mysql.js" working-dir="$PROJECT_DIR$/box16-async-mysql">
       <method v="2" />
     </configuration>
-    <configuration name="script.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box13-foreach/script.js" working-dir="$PROJECT_DIR$/box13-foreach">
+    <configuration name="script1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box18-object/script1.js" working-dir="$PROJECT_DIR$/box18-object">
       <method v="2" />
     </configuration>
-    <configuration name="socket.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box14-socket/socket.js" working-dir="$PROJECT_DIR$/box14-socket">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box17-symbol/script.js" working-dir="$PROJECT_DIR$/box17-symbol">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.check_null.js" />
+        <item itemvalue="Node.js.script1.js" />
+        <item itemvalue="Node.js.a.js" />
+        <item itemvalue="Node.js.script.js" />
         <item itemvalue="Node.js.mysql.js" />
-        <item itemvalue="Node.js.socket.js" />
-        <item itemvalue="Node.js.script.js (2)" />
-        <item itemvalue="Node.js.find_by_RegExp.js" />
-        <item itemvalue="Node.js.find_id.js" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +160,12 @@
       <workItem from="1620365667819" duration="12689000" />
       <workItem from="1620728200176" duration="1892000" />
       <workItem from="1620779360221" duration="7953000" />
+      <workItem from="1621857850846" duration="1285000" />
+      <workItem from="1621910926048" duration="1784000" />
+      <workItem from="1621955709985" duration="57000" />
+      <workItem from="1622041271982" duration="31000" />
+      <workItem from="1622885881129" duration="1220000" />
+      <workItem from="1623166833471" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -306,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620779190013</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add box16">
+      <created>1621762792963</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621762792963</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,25 +375,34 @@
     <MESSAGE value="update box12&#10;POSTで送信されたpasswordの情報を読み取るのにreq.bodyではなくres.bodyと書いていたせいでバグってたのを修正" />
     <MESSAGE value="add box13" />
     <MESSAGE value="add box14" />
-    <option name="LAST_COMMIT_MESSAGE" value="add box14" />
+    <MESSAGE value="add box16" />
+    <option name="LAST_COMMIT_MESSAGE" value="add box16" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1555" height="331" key="GridCell.Tab.0.bottom" timestamp="1621762581208">
+    <state x="584" y="106" key="CommitChangelistDialog2" timestamp="1621762792072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1555" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621762581208" />
-    <state width="1555" height="331" key="GridCell.Tab.0.center" timestamp="1621762581207">
+    <state x="584" y="106" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621762792072" />
+    <state width="1436" height="331" key="GridCell.Tab.0.bottom" timestamp="1623167154455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1555" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621762581207" />
-    <state width="1555" height="331" key="GridCell.Tab.0.left" timestamp="1621762581207">
+    <state width="1436" height="331" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623167154455" />
+    <state width="1436" height="331" key="GridCell.Tab.0.center" timestamp="1623167154455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1555" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621762581207" />
-    <state width="1555" height="331" key="GridCell.Tab.0.right" timestamp="1621762581207">
+    <state width="1436" height="331" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623167154455" />
+    <state width="1436" height="331" key="GridCell.Tab.0.left" timestamp="1623167154455">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1555" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621762581207" />
+    <state width="1436" height="331" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623167154455" />
+    <state width="1436" height="331" key="GridCell.Tab.0.right" timestamp="1623167154455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1436" height="331" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623167154455" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1621762794169">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1621762794169" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
