@@ -13,17 +13,29 @@ app.use(fileUpload())
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use(express.static('/public'));
-app.use(express.urlencoded({extended: true, limit: "50mb"}));
+app.use(express.urlencoded({extended: false, limit: "50mb"}));
 app.use(cookieParser());
 
 // routing
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
     res.render("index");
 });
 
-app.post("/post",(req, res) => {
+app.post("/post", (req, res) => {
     console.log(req.files)
     console.log(req.body)
+
+    req.body.bbbb.split(",").forEach(i => {
+            console.log(i)
+        console.log(i.toLowerCase()==="true")
+        if(i){
+            console.log("t")
+        }
+        else {
+            console.log("f")
+        }
+        }
+    )
     res.send("uploaded")
 })
 

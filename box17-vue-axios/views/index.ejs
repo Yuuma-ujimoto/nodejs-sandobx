@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<div id="app">
+    <!-- この#appの内側にテンプレートを書き込んでいく -->
+    {{message}}
+</div>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.auto.min.js"></script>
+<script>
+    Vue.component('price', {
+        data: function () {
+            return {
+                items: []
+            }
+        }
+    });
+</script>
+<script>
+    new Vue({
+        el: '#app',
+        data:{
+          message:"test"
+        },
+        mounted: function ()  {
+        axios
+            .get('/api')
+            .then(function (res) {
+                console.log(res)
+            });
+    }
+    });
+</script>
+</body>
+</html>

@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Index</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script >
+        $(()=>{
+            let list = []
+            $("#f").on("submit",()=>{
+                const x = $("input[name=file]")
+                x.each(function (i,e) {
+                    list.push(!!e.value)
+
+                })
+                $("#test").val(list)
+                return true
+            })
+        })
+    </script>
 </head>
 <body>
     <p>Index</p>
-    <form action="/post" method="post" enctype="multipart/form-data">
-        <input type="file" name="file">
-        <input type="file" name="file">
-        <input type="file" name="file">
+    <form id="f" action="/post" method="post" enctype="multipart/form-data" >
+        <input type="file" name="file" value="-1">
+        <input type="file" name="file" value="-1">
+        <input type="file" name="file" value="-1">
         <input type="text" name="aaaa">
+        <input type="hidden" name="bbbb" id="test">
         <button type="submit">submit</button>
     </form>
 </body>

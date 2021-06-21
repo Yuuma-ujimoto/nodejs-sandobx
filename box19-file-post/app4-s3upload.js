@@ -59,3 +59,4 @@ app.post("/post",(req, res) => {
 app.listen(3000);
 //一応Logにローカルホストのアドレスを表示させておく
 console.log("http://localhost:3000/")
+
