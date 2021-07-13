@@ -1,4 +1,5 @@
-//諸々のPackage読み込み
+
+app.u//諸々のPackage読み込み
 const express = require("express")
 const path = require("path")
 const cookieParser = require('cookie-parser');

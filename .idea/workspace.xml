@@ -26,9 +26,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="add box19&#10;add box20">
-      <change afterPath="$PROJECT_DIR$/box21-response/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/box21-response/readme.md" afterDir="false" />
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +57,7 @@
   </component>
   <component name="ProjectId" id="1pCnkJVp6ljKq9vQWZxUyX9Zuxj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="2" id="追加" />
   </component>
   <component name="ProjectViewState">
@@ -81,15 +80,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/box14-socket/views" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yuuma\WebstormProjects\nodejs-sandbox\box21-response" />
       <recent name="C:\Users\yuuma\WebstormProjects\nodejs-sandbox\box20-form-data\views" />
       <recent name="C:\Users\yuuma\WebstormProjects\nodejs-sandbox\box19-file-post" />
       <recent name="C:\Users\yuuma\WebstormProjects\nodejs-sandbox\box19-form-data" />
       <recent name="$PROJECT_DIR$/box14-socket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/box14-socket/views" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js (1)">
@@ -111,6 +110,13 @@
     <configuration name="check_null.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box18-object/check_null.js" working-dir="$PROJECT_DIR$/box18-object">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.app3.js" />
+      <item itemvalue="Node.js.app4-s3upload.js" />
+      <item itemvalue="Node.js.app.js (1)" />
+      <item itemvalue="Node.js.app.js" />
+      <item itemvalue="Node.js.check_null.js" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.app.js (1)" />
@@ -407,40 +413,6 @@
     <MESSAGE value="add box17&#10;add box18" />
     <MESSAGE value="add box19&#10;add box20" />
     <option name="LAST_COMMIT_MESSAGE" value="add box19&#10;add box20" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="655" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623469035755">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="655" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623469035755" />
-    <state x="584" y="106" key="CommitChangelistDialog2" timestamp="1623773007263">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="584" y="106" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623773007263" />
-    <state width="1430" height="413" key="GridCell.Tab.0.bottom" timestamp="1624092720989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1430" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624092720989" />
-    <state width="1430" height="413" key="GridCell.Tab.0.center" timestamp="1624092720989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1430" height="413" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624092720989" />
-    <state width="1430" height="413" key="GridCell.Tab.0.left" timestamp="1624092720989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1430" height="413" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624092720989" />
-    <state width="1430" height="413" key="GridCell.Tab.0.right" timestamp="1624092720989">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1430" height="413" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624092720989" />
-    <state x="792" y="128" key="Vcs.Push.Dialog.v2" timestamp="1623773009861">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="792" y="128" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623773009861" />
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624092104117">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="776" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1624092104117" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
