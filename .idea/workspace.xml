@@ -26,8 +26,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="update">
+    <list default="true" id="ed4a317e-deda-47b1-9422-01fde999435a" name="Default Changelist" comment="壊れていたファイルを修正">
+      <change afterPath="$PROJECT_DIR$/box22-forEach-Async/a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box22-forEach-Async/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box23-health-sandbox/check_date_span.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box23-health-sandbox/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box23-health-sandbox/script2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/box7-Date-Object-Sandbox/script3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,8 +78,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新規スクラッチファイル" value="Markdown" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.13" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.8.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="15.14.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/box21-response" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -91,39 +99,36 @@
       <recent name="$PROJECT_DIR$/box14-socket/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.app.js (1)">
-    <configuration name="app3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box19-file-post/app3.js" working-dir="$PROJECT_DIR$/box19-file-post">
+  <component name="RunManager" selected="Node.js.script2.js">
+    <configuration name="check_date_span.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box23-health-sandbox/check_date_span.js" working-dir="$PROJECT_DIR$/box23-health-sandbox">
       <method v="2" />
     </configuration>
-    <configuration name="app4-s3upload.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box19-file-post/app4-s3upload.js" working-dir="$PROJECT_DIR$/box19-file-post">
+    <configuration name="script2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box23-health-sandbox/script2.js" working-dir="$PROJECT_DIR$/box23-health-sandbox">
       <method v="2" />
     </configuration>
-    <configuration name="app.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box21-response/app.js" working-dir="$PROJECT_DIR$/box21-response">
+    <configuration name="script3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box7-Date-Object-Sandbox/script3.js" working-dir="$PROJECT_DIR$/box7-Date-Object-Sandbox">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box19-file-post/app.js" working-dir="$PROJECT_DIR$/box19-file-post">
+    <configuration name="script.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box7-Date-Object-Sandbox/script.js" working-dir="$PROJECT_DIR$/box7-Date-Object-Sandbox">
       <method v="2" />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box20-form-data/app.js" working-dir="$PROJECT_DIR$/box20-form-data">
-      <method v="2" />
-    </configuration>
-    <configuration name="check_null.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box18-object/check_null.js" working-dir="$PROJECT_DIR$/box18-object">
+    <configuration name="script.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/box23-health-sandbox/script.js" working-dir="$PROJECT_DIR$/box23-health-sandbox">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.app3.js" />
-      <item itemvalue="Node.js.app4-s3upload.js" />
-      <item itemvalue="Node.js.app.js (1)" />
-      <item itemvalue="Node.js.app.js" />
-      <item itemvalue="Node.js.check_null.js" />
+      <item itemvalue="Node.js.script.js (1)" />
+      <item itemvalue="Node.js.script3.js" />
+      <item itemvalue="Node.js.script.js (2)" />
+      <item itemvalue="Node.js.check_date_span.js" />
+      <item itemvalue="Node.js.script2.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.app.js (1)" />
-        <item itemvalue="Node.js.app4-s3upload.js" />
-        <item itemvalue="Node.js.app3.js" />
-        <item itemvalue="Node.js.app.js" />
-        <item itemvalue="Node.js.check_null.js" />
+        <item itemvalue="Node.js.script2.js" />
+        <item itemvalue="Node.js.check_date_span.js" />
+        <item itemvalue="Node.js.script.js (2)" />
+        <item itemvalue="Node.js.script3.js" />
+        <item itemvalue="Node.js.script.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +191,10 @@
       <workItem from="1623834994526" duration="631000" />
       <workItem from="1623895036984" duration="438000" />
       <workItem from="1624092097920" duration="741000" />
+      <workItem from="1626196113224" duration="3482000" />
+      <workItem from="1626749331526" duration="735000" />
+      <workItem from="1626801236072" duration="603000" />
+      <workItem from="1626882981049" duration="5238000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1615541256919</created>
@@ -355,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623773008451</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="壊れていたファイルを修正">
+      <created>1626196198389</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1626196198389</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -412,7 +428,8 @@
     <MESSAGE value="add box16" />
     <MESSAGE value="add box17&#10;add box18" />
     <MESSAGE value="add box19&#10;add box20" />
-    <option name="LAST_COMMIT_MESSAGE" value="add box19&#10;add box20" />
+    <MESSAGE value="壊れていたファイルを修正" />
+    <option name="LAST_COMMIT_MESSAGE" value="壊れていたファイルを修正" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
